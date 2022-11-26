@@ -1,0 +1,144 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body
+{
+    font-size: large;
+    line-height: 2.5em;
+    background-color: #f0dfdf;
+}
+
+/* Navigation Bar */
+
+header
+{
+    height: 11%;
+    position: fixed;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 15px 10%;
+    
+}
+
+
+.menu li, a
+{
+    font-weight:bolder;
+    font-size: 1em;
+    color: #eeeeee;
+    text-decoration: none;
+    background-color:  #000000;
+
+}
+
+.menu
+{
+    list-style: none;
+}
+.menu li
+{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.menu li, a, sub{
+    transition: all 0.2s ease 0s;
+}
+.menu a:hover, sub:hover{
+    text-decoration: underline;
+}
+
+/* Footer */
+
+footer p
+{
+    padding: 20px;
+    text-align: center;
+    background-color:#000000;
+    font-weight: bold;
+    color: #eeeeee;
+    position: relative;
+}
+
+/* Main Image  */
+
+#main-img{
+ padding-top: 5.5%;
+}
+
+/* Content Area */
+
+#index-content-area{
+    /* padding TRBL */
+    padding: 1% 2% 2% 2%;
+}
+
+#content-area{
+    padding: 7% 2% 2% 2%;
+}
+/* Home Page */
+
+.intro{
+    padding: 0% 10% 1% 10%; 
+    text-align: center;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+/* Albums Page */
+
+.album-intro{
+    font-size: 1.2em;
+    padding: 2% 5% 2% 5%;
+    font-weight: 300;
+}
+
+/* Album list and details */
+.album-list h2{
+    text-shadow: 2px 2px rgb(163, 162, 162);
+}
+/* Album images */
+
+.album-images-with-details {
+    display: grid; 
+    grid: auto auto / auto auto auto auto;
+    /* grid-template-columns: 15% 15% 15% 15% 15%;
+    grid-template-rows: 15% 15% 15% 15% 15%; */
+    gap: 1%; 
+    padding-top: 2%;
+}
+
+.row{
+    background-color: #f0dfdf;
+    text-align: center; 
+    color: black;
+    padding: 1% 1%; 
+}
+
+/* Album images */
+/* 
+div.row img{
+    border: 1% solid #000000 ;
+} */
+
+/* Achievements Page */
+
+.award-img{
+    display: flex;
+    padding-top: 3%;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.award-img p{
+    padding: 10% 5% 0% 3%;
+}
+
